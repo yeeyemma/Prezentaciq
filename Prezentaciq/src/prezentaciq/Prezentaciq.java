@@ -17,7 +17,10 @@ public class Prezentaciq {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter a: ");
         int a = input.nextInt();
+        System.out.print("Enter b: ");
+
         int b = input.nextInt();
         System.out.println(a+b);
         // TODO code application logic here
